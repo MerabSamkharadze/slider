@@ -6,5 +6,3 @@ var splide = new Splide(".splide", {
 });
 
 splide.mount();
-
-const splide__list = document.querySelector(".splide__list");
