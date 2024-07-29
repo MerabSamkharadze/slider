@@ -21,3 +21,17 @@ img {
   width: 60px;
   height: 60px;
 }
+
+.splide__slide {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.splide__slide.is-active {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.splide__slide:not(.is-active) {
+  transform: scale(0.9);
+  opacity: 0.6;
+}
